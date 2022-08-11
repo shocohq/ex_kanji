@@ -1,5 +1,7 @@
 # Kanji
 [![CI](https://github.com/shocohq/ex_kanji/actions/workflows/ci.yml/badge.svg)](https://github.com/shocohq/ex_kanji/actions/workflows/ci.yml)
+[![hex.pm](https://img.shields.io/hexpm/v/kanji)](https://hex.pm/packages/kanji)
+[![MIT License](https://img.shields.io/hexpm/l/kanji)](./LICENSE)
 
 Elixir で日本語常用漢字を扱うためのライブラリ (Japanese Kanji library for Elixir)
 
