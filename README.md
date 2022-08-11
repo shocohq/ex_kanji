@@ -1,6 +1,20 @@
 # Kanji
+[![CI](https://github.com/shocohq/ex_kanji/actions/workflows/ci.yml/badge.svg)](https://github.com/shocohq/ex_kanji/actions/workflows/ci.yml)
 
-**TODO: Add description**
+Elixir で日本語常用漢字を扱うためのライブラリ (Japanese Kanji library for Elixir)
+
+## Usage
+
+```ex
+iex(1)> Kanji.kanji?(?漢)
+true
+
+iex(2)> Kanji.kanji?(?あ)
+false
+
+iex(3)> Kanji.kanji?(?A)
+false
+```
 
 ## Installation
 
@@ -10,7 +24,7 @@ by adding `kanji` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:kanji, "~> 0.1.0"}
+    {:kanji, "~> 0.0.0"}
   ]
 end
 ```
