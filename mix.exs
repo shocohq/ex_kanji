@@ -7,6 +7,8 @@ defmodule Kanji.MixProject do
       version: "0.0.0",
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
+      description: "Elixir で日本語常用漢字を扱うためのライブラリ (Japanese Kanji library for Elixir)",
+      package: package(),
       deps: deps()
     ]
   end
@@ -15,6 +17,13 @@ defmodule Kanji.MixProject do
   def application do
     [
       extra_applications: [:logger]
+    ]
+  end
+
+  def package do
+    [
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/shocohq/ex_kanji"}
     ]
   end
 
